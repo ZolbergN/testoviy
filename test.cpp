@@ -7,17 +7,17 @@ class XXX
     public:
     void fun1()
     {
-    cout « "hi\n";
+    cout << "hi\n";
     }
     private:
     void fun2()
     {
-    cout « "won't be printed";
+    cout << "won't be printed";
     }
     protected:
     void fun3()
     {
-    cout « "won't be printed";
+    cout << "won't be printed";
     }
     };
 

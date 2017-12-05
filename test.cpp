@@ -1,13 +1,11 @@
+// Copyright 2017 Roman Zheltov
 #include <iostream>
 
-using namespace std;
+int main() {
+    int aaa = 20;
+    int bbb = 13;
+    int sum = aaa + bbb;
+    std::cout << "sum= " << sum << std::endl;
 
-int main()
-{
-    int a = 20;
-    int b = 13;
-    int sum = a + b;
-    cout << "sum= " << sum << endl;
-    
     return 0;
 }
